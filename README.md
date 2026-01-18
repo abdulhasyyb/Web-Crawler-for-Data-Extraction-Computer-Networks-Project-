@@ -37,15 +37,16 @@ The crawler starts from a **root URL**, navigates internal links within a **cont
 ---
 
 ## Project Structure
+```text
 Web-Crawler-Data-Extraction
 │
 ├── src/
-│   ├── main.py
-│   ├── crawler.py
-│   ├── parser.py
-│   ├── storage.py
-│   ├── utils.py
-│   └── config.py
+│   ├── main.py          # Entry point of the crawler
+│   ├── crawler.py       # Crawling logic and link traversal
+│   ├── parser.py        # HTML parsing and data extraction
+│   ├── storage.py       # JSON data storage
+│   ├── utils.py         # Utility functions
+│   └── config.py        # Configuration settings
 │
 ├── report/
 │   └── Project-report.pdf
@@ -56,20 +57,24 @@ Web-Crawler-Data-Extraction
 └── requirements.txt
 
 
-
-
----
-
 ## Installation & Usage
 ```bash
 pip install -r requirements.txt
 python main.py
-## Project Structure
 
-Academic research and learning
 
-Content aggregation
+Configuration options such as target URL, crawl depth, and output file name can be modified in config.py.
 
-Market and competitor analysis
 
-SEO and website structure analysis
+## Use Cases
+- **Academic research and learning**
+- **Content aggregation**
+- **Market and competitor analysis**
+- **SEO and website structure analysis**
+
+---
+
+## Disclaimer
+This project was developed **strictly for academic and educational purposes** as part of a university course.  
+It demonstrates web crawling and data extraction concepts and follows **ethical web scraping practices**.  
+The author does **not** support or encourage unauthorized or abusive use of this project.
