@@ -56,6 +56,7 @@ Web-Crawler-Data-Extraction
 │
 └── requirements.txt
 
+---
 
 ## Installation & Usage
 ```bash
