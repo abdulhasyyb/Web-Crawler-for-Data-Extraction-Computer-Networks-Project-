@@ -37,24 +37,24 @@ The crawler starts from a **root URL**, navigates internal links within a **cont
 ---
 
 ## Project Structure
-
 Web-Crawler-Data-Extraction
 │
 ├── src/
-│ ├── main.py
-│ ├── crawler.py
-│ ├── parser.py
-│ ├── storage.py
-│ ├── utils.py
-│ └── config.py
+│   ├── main.py
+│   ├── crawler.py
+│   ├── parser.py
+│   ├── storage.py
+│   ├── utils.py
+│   └── config.py
 │
 ├── report/
-│ └── Project-report.pdf
+│   └── Project-report.pdf
 │
 ├── sample-output/
-│ └── output.json
+│   └── output.json
 │
 └── requirements.txt
+
 
 
 
